@@ -63,6 +63,16 @@ c //= 5
 print("Floor Division and Assign: ", c)
 c = d
 
+#TYPE CONVERSION
+a = 5
+b = 2.5
+sum = a + b        # 5.0 + 2.5 = 7.5
+print("Sum:", sum)
 
-
-
+#Input
+Name = input("Enter your Name: ")
+print("Hello", Name)
+Age = int(input("Enter your Age: "))
+print("You are", Age, "years old.")
+Weight = float(input("Enter your Weight (in KG): "))
+print("Your Weight is", Weight, "KG.")

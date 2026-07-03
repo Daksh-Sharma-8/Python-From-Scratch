@@ -115,3 +115,23 @@ else:
     print("Light is broken")
 #Output: Light is broken
 
+#NESTING
+age = 34
+if age >= 18:
+    if age>=80:
+        print("Cannot Drive")
+    else:
+        print("Can Drive")
+else:
+    print("Cannot drive")
+#Output: Can Drive
+
+age = 95
+if age >= 18:
+    if age>=80:
+        print("Cannot Drive")
+    else:
+        print("Can Drive")
+else:
+    print("Cannot drive")
+#Output: Cannot Drive
